@@ -1,4 +1,9 @@
 {
   "name": "study-react",
-  "packageManager": "yarn@3.2.1"
+  "packageManager": "yarn@3.2.1",
+  "workspaces": {
+    "packages": [
+      "projects/*"
+    ]
+  }
 }
